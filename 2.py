@@ -20,6 +20,7 @@ class Hospital:
         for patient in self.patients:
             print("Name:", patient.name)
             print("Illness:", patient.illness)
+            
 
 
 class Doctor(Hospital):
